@@ -1,0 +1,9 @@
+scriptmode +invisible
+setwindow pcb
+define grid
+setwindow form.grid
+FORM grid non_etch non_etch_x_grids $gridvalue
+FORM grid non_etch non_etch_y_grids $gridvalue
+FORM grid all_etch all_etch_x_grids $gridvalue
+FORM grid all_etch all_etch_y_grids $gridvalue
+FORM grid done
